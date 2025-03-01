@@ -66,7 +66,7 @@ const CreateTask = () => {
   }
 
   return (
-    <div className='bg-[#1e1e1e] p-6 rounded-xl shadow-md shadow-black/10 mt-6'>
+    <div className='bg-[black] p-6 rounded-xl shadow-md shadow-black/10 mt-6'>
       <h2 className='text-xl font-bold text-gray-100 mb-6'>Create New Task</h2>
       <form onSubmit={submitHandler} className='flex flex-wrap w-full items-start justify-between'>
         <div className='w-1/2'>
@@ -130,7 +130,7 @@ const CreateTask = () => {
           />
           <button 
             type="submit"
-            className='w-full mt-4 bg-emerald-500  hover:bg-emerald-600 text-white font-semibold py-3 rounded-lg transition-all duration-200'
+            className='w-full mt-4 bg-emerald-700  hover:bg-emerald-600 text-white font-semibold py-3 rounded-lg transition-all duration-200'
           >
             Create Task
           </button>
