@@ -10,7 +10,7 @@ const FailedTask = ({ element }) => {
       <h2 className='mt-4 text-lg font-semibold text-gray-100'>{element.taskTitle}</h2>
       <p className='mt-2 text-sm text-gray-300'>{element.taskDescription}</p>
       <div className='mt-5'>
-        <div className='w-full bg-red-900/50 text-red-300 text-center py-2 rounded-lg font-medium'>
+        <div className='w-full bg-red-700/50 text-red-300 text-center py-2 rounded-lg font-medium'>
           Failed
         </div>
       </div>
