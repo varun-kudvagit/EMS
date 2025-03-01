@@ -9,14 +9,14 @@ const Header = ({ data, changeUser }) => {
     }
 
     return (
-        <div className='flex items-end justify-between bg-[#3d3d3d] p-6 rounded-xl shadow-md shadow-black/10'>
+        <div className='flex items-end justify-between bg-[black] p-6 rounded-xl shadow-md shadow-black/10'>
             <div>
                 <h1 className='text-gray-400 font-medium'>Welcome back,</h1>
                 <span className='text-2xl font-bold text-gray-100'>{data?.firstName ? data.firstName : 'Admin'} 👋🏻</span>
             </div>
             <button 
                 onClick={logOutUser} 
-                className='bg-emerald-500  hover:bg-emerald-600 text-white rounded-lg px-6 py-2 font-medium transition-all duration-200'
+                className='bg-emerald-700  hover:bg-emerald-600 text-white rounded-lg px-6 py-2 font-medium transition-all duration-200'
             >
                 Log out
             </button>
