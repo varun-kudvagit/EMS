@@ -31,7 +31,7 @@ const AcceptTask = ({ element }) => {
           onClick={() => handleStatusChange('completed')}
           className='flex-1 bg-emerald-500 hover:bg-emerald-600 text-white font-medium py-2 px-4 rounded-lg transition-all duration-200'
         >
-          Complete
+          Completed
         </button>
         <button 
           onClick={() => handleStatusChange('failed')}
