@@ -20,7 +20,7 @@ const EmployeeDashboard = ({ data, changeUser }) => {
   const currentEmployeeData = userData?.find(emp => emp.id === data.id) || data
 
   return (
-    <div className='min-h-screen bg-[#0a0a0a] p-6 md:p-10'>
+    <div className='min-h-screen bg-[#2e4478] p-6 md:p-10'>
       <Header data={currentEmployeeData} changeUser={changeUser} />
       <TaskListNumbers data={currentEmployeeData} />
       <TaskList data={currentEmployeeData} />
