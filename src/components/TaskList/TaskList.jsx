@@ -24,7 +24,7 @@ const TaskList = ({ data }) => {
   }
 
   return (
-    <div className='bg-[#6b602b] p-6 rounded-xl shadow-md shadow-black/10 mt-6'>
+    <div className='bg-[black] p-6 rounded-xl shadow-md shadow-black/10 mt-6'>
       <h2 className='text-xl font-bold text-gray-100 mb-6'>Your Tasks</h2>
       <div id='tasklist' className='flex items-center gap-6 overflow-x-auto pb-4'>
         {data?.tasks?.map((task, id) => renderTask(task, id))}
