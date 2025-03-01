@@ -24,9 +24,9 @@ const Login = ({ handleLogin }) => {
     }
 
     return (
-        <div className='flex h-screen w-screen items-center justify-center bg-[#3a579c]'>
+        <div className='flex h-screen w-screen items-center justify-center bg-[#5e5e5d]'>
             <div className='bg-[#1e1e1e] shadow-xl rounded-2xl p-12 w-full max-w-md'>
-                <h2 className='text-3xl font-bold text-center mb-8 text-gray-100'>HEY, LOGIN PLEASE </h2>
+                <h2 className="text-3xl font-bold text-center mb-8 text-gray-100">HEY, LOGIN PLEASE </h2>
                 <form
                     onSubmit={submitHandler}
                     className='flex flex-col items-center justify-center'>
@@ -46,7 +46,7 @@ const Login = ({ handleLogin }) => {
                         type="password"
                         placeholder='Enter your password'
                     />
-                    <button className='w-full bg-blue-600 hover:bg-emerald-600 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-[1.02]'>
+                    <button className='w-full bg-blue-800 hover:bg-emerald-800 text-white font-semibold py-3 px-6 rounded-lg transition-all duration-200 transform hover:scale-[1.02]'>
                         Login
                     </button>
                 </form>
