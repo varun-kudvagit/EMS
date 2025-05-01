@@ -1,7 +1,8 @@
 # Staff-Ezy - Employee Management System
 Live Demo:  https://varunkudvaems.netlify.app/
-Email ids: Employees: abc@g.com, def@g.com, pqr@g.com, lmn@g.com, jkl@g.com. Admin: 
-admin@g.com. Password: 123. 
+
+Email ids: Employees: abc@g.com, def@g.com, pqr@g.com, lmn@g.com, jkl@g.com. 
+Admin: admin@g.com. Password: 123. 
 
 
 Staff-Ezy is an Employee Management System designed to streamline task assignment and tracking for both administrators and employees. This system allows administrators to assign tasks to employees, view their progress, and track task statuses. Employees can view the tasks assigned to them, accept the tasks, and provide feedback on whether the task was successful or failed.
