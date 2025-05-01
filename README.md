@@ -21,5 +21,5 @@ Employee Features:
    Accept Task: Employees can accept tasks that have been assigned to them, confirming that they will work on the task.
    Provide Task Status: Once the task is completed, employees can mark the task as successful or failed, providing feedback on their progress.
 
-Tech Stack
+Tech Stack:
   Frontend: React, Tailwind CSS, JavaScript
