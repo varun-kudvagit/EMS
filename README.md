@@ -1,8 +1,22 @@
-# React + Vite
+# Staff-Ezy - Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Staff-Ezy is an Employee Management System designed to streamline task assignment and tracking for both administrators and employees. This system allows administrators to assign tasks to employees, view their progress, and track task statuses. Employees can view the tasks assigned to them, accept the tasks, and provide feedback on whether the task was successful or failed.
 
-Currently, two official plugins are available:
+Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Admin Features:
+Assign Tasks: Admins can assign tasks to employees with specific details such as description, due date, and priority.
+
+View Tasks: Admins can view all tasks assigned to employees, along with their status (accepted, completed, or failed).
+
+Track Task Progress: Admins can monitor the progress of tasks assigned to employees, ensuring timely completion.
+
+Employee Features:
+View Assigned Tasks: Employees can view the tasks that have been assigned to them, including details like task description, due date, and priority.
+
+Accept Task: Employees can accept tasks that have been assigned to them, confirming that they will work on the task.
+
+Provide Task Status: Once the task is completed, employees can mark the task as successful or failed, providing feedback on their progress.
+
+Tech Stack
+Frontend: React, Tailwind CSS, JavaScript
